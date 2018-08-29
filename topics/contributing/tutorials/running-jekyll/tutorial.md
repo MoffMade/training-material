@@ -60,6 +60,10 @@ Once Jekyll and its modules are installed in our conda environment, we can check
 >
 {: .hands_on}
 
+> ### {% icon tip %} Troubleshooting
+> If you encounter an error about 'no such file or directory' make sure that you have added conda to the path as above with `export PATH="$HOME/miniconda/bin:$PATH"`. To avoid needing this each time you activate the conda environment, you can add it to your shell config profile (for example .bash_profile or .bachrc).
+{: .tip}
+
 With `make serve`, a local Jekyll server will run in background. It will check the changes and regenerate the website accordingly. You may need to reload the page to see the changes (and sometimes to wait 1-2 minutes).
 
 # Stopping the server
